@@ -167,7 +167,7 @@ Configuring Docker to accept remote connections can be done with the `docker.ser
 
 ### Configuring remote access with `systemd` unit file
 
-1.  Use the command `sudo systemctl edit docker.service` to open an override file for `docker.service` in a text editor.
+1.  Use the command `sudo systemctl edit --full docker.service` to open an override file for `docker.service` in a text editor,exit by `^X`.
 
 2.  Add or modify the following lines, substituting your own values.
 
